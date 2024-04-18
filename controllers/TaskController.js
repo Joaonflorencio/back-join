@@ -15,7 +15,7 @@ const TaskController = {
         res.json(task);
     } catch (error) {
         console.log(error)
-    }
+    }  
   },
   // Esta es para ver el renderizado en SSR
   async getAllSSR (req, res) {
@@ -90,3 +90,5 @@ const TaskController = {
 }
 
 module.exports = TaskController
+
+//joao
